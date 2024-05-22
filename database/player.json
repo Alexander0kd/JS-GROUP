@@ -1,22 +1,27 @@
 [
     {
         "id": 1,
-        "name": "Standing-or-fishing",
-        "img": "https://place-hold.it/100x100/b53a3a/b53a3a"
+        "name": "Fishing",
+        "img": "./img/gameSprites/playerSprites/Player+.png"
     },
     {
         "id": 2,
-        "name": "Throw-img-1",
-        "img": "https://place-hold.it/100x100/a52a2a/a52a2a"
+        "name": "Standing",
+        "img": "./img/gameSprites/playerSprites/Player0.png"
     },
     {
         "id": 3,
-        "name": "Throw-img-2",
-        "img": "https://place-hold.it/100x100/951a1a/951a1a"
+        "name": "Throw-img-1",
+        "img": "./img/gameSprites/playerSprites/Player1.png"
     },
     {
         "id": 4,
+        "name": "Throw-img-2",
+        "img": "./img/gameSprites/playerSprites/Player2.png"
+    },
+    {
+        "id": 5,
         "name": "Throw-img-3",
-        "img": "https://place-hold.it/100x100/850a0a/850a0a"
+        "img": "./img/gameSprites/playerSprites/Player3.png"
     }
 ]

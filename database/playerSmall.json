@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Fishing",
+        "img": "./img/gameSprites/playerSmallSprites/Player+.png"
+    },
+    {
+        "id": 2,
+        "name": "Standing",
+        "img": "./img/gameSprites/playerSmallSprites/Player0.png"
+    },
+    {
+        "id": 3,
+        "name": "Throw-img-1",
+        "img": "./img/gameSprites/playerSmallSprites/Player1.png"
+    },
+    {
+        "id": 4,
+        "name": "Throw-img-2",
+        "img": "./img/gameSprites/playerSmallSprites/Player2.png"
+    },
+    {
+        "id": 5,
+        "name": "Throw-img-3",
+        "img": "./img/gameSprites/playerSmallSprites/Player3.png"
+    }
+]

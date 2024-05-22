@@ -14,8 +14,6 @@
             <div class="game-body">
                 <img class="fill-container" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-game-body-bg.svg"
                     alt="">
-                <canvas class="bubbles" data-element="bubbles"></canvas>
-                <canvas class="seaweed" data-element="seaweed"></canvas>
                 <img class="seafloor fill-container"
                     src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-sea-floor.svg" alt="">
                 <div class="fish">
@@ -39,11 +37,15 @@
     
         </div>
     
-        <div id="lake"></div>
+        <div id="lake">
+            <img src="./img/gameSprites/Lake.png">
+            <div id="lakearea"></div>
+        </div>
         <div id="land"></div>
     
         <div id="player">
             <div id="float">
+                <img src="./img/gameSprites/float.png">
             </div>
             <div id="throw-scale" style="display: none;">
                 <div id="progress-bar">

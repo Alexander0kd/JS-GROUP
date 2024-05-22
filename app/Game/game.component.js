@@ -312,16 +312,13 @@ function holegeneration() {
         lakearea.id = `hole${i}`;
 
         for (let j = 0; j < i; j++) {
-            const holeSize = document.querySelector('.hole').clientWidth;
-            const holeWidth = holeSize / backroundWidth * 100;
-            const holeHeight = holeSize / backroundHeight * 100;
-
-            const holeLeft = parseFloat(document.getElementById(`hole${j}`).style.left);
-            const holeTop = parseFloat(document.getElementById(`hole${j}`).style.top);
+            let holeSize = document.querySelector('.hole').clientWidth;
+            let holeWidth = holeSize / backroundWidth * 100;
+            let holeHeight = holeSize / backroundHeight * 100;
 
             while (
-                Math.abs(holeLeft - left) < holeWidth * 2 &&
-                Math.abs(holeTop - _top) < holeHeight * 2
+                Math.abs(parseFloat(document.getElementById(`hole${j}`).style.left) - left) < holeWidth * 2 &&
+                Math.abs(parseFloat(document.getElementById(`hole${j}`).style.top) - _top) < holeHeight * 2
             ) {
                 j = 0;
                 left = Math.random() * 80;

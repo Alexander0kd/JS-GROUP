@@ -94,9 +94,9 @@ async function loadSprites() {
         url = 'database/playerSmall.json';
 
 
-    const response = await HttpClient.getJson(url);
-    Object.keys(response).forEach(i => {
-        sprite[i] = response[i].img;
+    await HttpClient.getJson(url).then((response) => {
+        for (let i in response)
+            sprite[i] = response[i].img;
     });
 
     player.style.backgroundImage = `url(${sprite[0]})`;
